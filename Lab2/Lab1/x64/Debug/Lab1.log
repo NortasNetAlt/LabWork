@@ -1,0 +1,6 @@
+﻿cl : командная строка  warning D9002: пропуск неизвестного параметра "/utf"
+  Work.c
+C:\Users\admin\source\repos\Lab1\Lab1\Work.c(15,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "double"
+C:\Users\admin\source\repos\Lab1\Lab1\Work.c(15,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "double"
+C:\Users\admin\source\repos\Lab1\Lab1\Work.c(15,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "3" имеет тип "double"
+  Lab1.vcxproj -> C:\Users\admin\source\repos\Lab1\x64\Debug\Lab1.exe

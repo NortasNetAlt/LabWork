@@ -1,0 +1,9 @@
+﻿  Lab3.c
+C:\Users\admin\source\repos\Lab3\Lab3\Lab3.c(33,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\admin\source\repos\Lab3\Lab3\Lab3.c(34,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\admin\source\repos\Lab3\Lab3\Lab3.c(45,12): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\admin\source\repos\Lab3\Lab3\Lab3.c(46,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\admin\source\repos\Lab3\Lab3\Lab3.c(47,17): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\admin\source\repos\Lab3\Lab3\Lab3.c(48,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\admin\source\repos\Lab3\Lab3\Lab3.c(49,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Lab3.vcxproj -> C:\Users\admin\source\repos\Lab3\x64\Debug\Lab3.exe
