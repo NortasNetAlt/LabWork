@@ -47,7 +47,7 @@ z=25.001z=25.001
 
 9.Вывести результат на экран с точностью до 4 знаков после запятой.
 
-**Блок-схема**
+# Блок-схема
 
 <img width="460" height="840" alt="diagram" src="https://github.com/user-attachments/assets/5d98ae29-f7ae-49ed-9d98-2f7a8cee1b79" />
 
