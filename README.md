@@ -21,8 +21,11 @@
 <img width="384" height="87" alt="изображение" src="https://github.com/user-attachments/assets/8f4fdaef-1bee-453e-a3cb-5124e8215e77" />
 
 **Дано:**
+
 x=6.251
+
 y=0.827
+
 z=25.001
 
 Ожидаемый ответ: 0.7121
