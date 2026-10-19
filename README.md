@@ -172,7 +172,8 @@ exp(x) — возвращает экспоненту (число e в степе
 
 ### Блок-схема
 
-<img width="344" height="742" alt="Диаграмма без названия drawio(1)" src="https://github.com/user-attachments/assets/5ff5171c-061d-4eae-806b-21b3bff353eb" />
+<img width="344" height="742" alt="Диаграмма без названия drawio(1)" src="https://github.com/user-attachments/assets/5e598ba7-59d2-4292-8d9f-77cdc5b156f3" />
+
 
 # 2. Реализация программы
 
