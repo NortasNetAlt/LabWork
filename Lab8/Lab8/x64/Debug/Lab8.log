@@ -1,0 +1,3 @@
+﻿  Work.c
+C:\Users\admin\source\repos\Lab8\Lab8\Work.c(12,5): warning C4013: task4: нет определения; предполагается "extern" с возвратом типа "int"
+  Lab8.vcxproj -> C:\Users\admin\source\repos\Lab8\x64\Debug\Lab8.exe
