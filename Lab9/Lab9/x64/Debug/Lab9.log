@@ -1,0 +1,4 @@
+﻿  Work.c
+C:\Users\admin\source\repos\Lab9\Lab9\Work.c(81,9): warning C4033: "task1" должен возвращать значение
+C:\Users\admin\source\repos\Lab9\Lab9\Work.c(84,1): warning C4716: task1: должна возвращать значение
+  Lab9.vcxproj -> C:\Users\admin\source\repos\Lab9\x64\Debug\Lab9.exe
