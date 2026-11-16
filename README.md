@@ -1,3 +1,71 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <locale.h>
+#include <stdlib.h>
+
+int check(double x, double y);
+int draw(char simv);
+
+int main() {
+    setlocale(LC_CTYPE, "RUS");
+    char command;
+    char simv;
+    double x, y;
+    int running = 1;
+
+    while (running) {
+        printf("\nd - Нарисовать область\n");
+        printf("\np - проверить точки (x, y)\n");
+        printf("\nn - Закрыть программу\n");
+
+        switch (command) {
+        case 'd':
+            printf("\nНапишите символ:\n");
+            scanf(" %c", &simv);
+            printf("\nРисунок\n");
+            draw();
+            break;
+        case 'p':
+            printf("Введите значения (x y):");
+            scanf("%lf %lf", &x, &y);
+            check(x, y);
+            if (check(x, y)) {
+                printf("\nТочки (%.2lf, %.2lf) принадлежат заштрихованной области\n", x, y);
+            }
+            else {
+                printf("\nТочки (%.2lf, %.2lf) не принадлежат заштрихованной области\n", x, y);
+            }
+            break;
+        case 'n':
+            printf("\nЗакрытие программы\n");
+            running = 0;
+            break;
+        }
+    }
+    return 0;
+}
+
+int check(double x, double y) {
+    return x >= 0 && y <= -x && (x * x + y * y) <= 2 && (x > y);
+}
+
+int draw(simv) {
+    for (double y = 0.2; y >= -1.6; y -= 0.1) {
+        for (double x = -0.2; x <= 1.6; x += 0.05) {
+            if (check(x, y)) {
+                printf("%c", simv);
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
+
+
+
 # Lab5DZ
 ### Домашняя работа (Условие)
 11. Вычисление значения выражения
